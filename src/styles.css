@@ -1,0 +1,32 @@
+:root {
+  --color-primary: #898AC4;
+  --color-secondary: #A2AADB;
+  --color-surface: #A2AADB;
+  --color-background: #FFF2E0;
+  --color-text: #22223B;
+}
+
+.body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+header, .navbar {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+button, .btn-primary {
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+}
+
+.card, .panel, .input-group {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+}
+
+.highlight, .active, .selected {
+  background-color: var(--color-secondary);
+}
